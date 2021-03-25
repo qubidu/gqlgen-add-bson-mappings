@@ -1,0 +1,19 @@
+
+# types
+type ExampleType1 {
+  id: ID
+  name: String
+  description: String
+}
+
+type ExampleType2 {
+  id: ID
+  name: String
+  description: String
+  something: String
+}
+
+# query
+type Query {
+  examples: ExampleType1
+}

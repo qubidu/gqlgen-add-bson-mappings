@@ -1,0 +1,13 @@
+[
+  { "model": "*", "field": "id", "tagPostfix": " bson:\"_id\"" },
+  {
+    "model": "ExampleType1",
+    "field": "description",
+    "tagPostfix": " bson:\"omitempty\""
+  },
+  {
+    "model": "ExampleType2",
+    "field": "something",
+    "tagPostfix": " bson:\"omitempty\""
+  }
+]
